@@ -1,0 +1,77 @@
+@import "../../assets/styles/variable";
+@import "../../assets/styles/screen";
+
+.container-form {
+  background-color: #f3f4f6;
+  padding-top: 40px;
+  padding-bottom: 40px;
+
+  @include responsive_425 {
+    padding: 15px;
+  }
+
+  form {
+    box-sizing: border-box;
+    margin: 0 auto;
+    width: 472px;
+    background-color: #ffff;
+    padding: 40px;
+    border: 1px solid rgb(223, 221, 221);
+    border-radius: 5px;
+
+    @include responsive_425 {
+      width: 100% !important;
+    }
+
+    .form-input {
+      h3 {
+        text-align: center;
+        margin: 0;
+        font-weight: 700;
+        font-size: 16px;
+      }
+
+      .password {
+        position: relative;
+
+        .icon {
+          position: absolute;
+          bottom: 24px;
+          right: 12px;
+          cursor: pointer;
+        }
+      }
+    }
+
+    .difference {
+      display: flex;
+      gap: 10px;
+      font-size: 14px;
+      margin: 20px 0px;
+      justify-content: space-between;
+      .forgot_account {
+        display: block;
+        color: rgb(39, 66, 239);
+      }
+
+      .register {
+        .reg {
+          cursor: pointer;
+          text-decoration: underline;
+          color: rgb(39, 66, 239);
+        }
+      }
+    }
+
+    .setting {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+
+      a {
+        text-decoration: none;
+        color: $color;
+      }
+    }
+  }
+}

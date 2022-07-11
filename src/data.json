@@ -1,0 +1,26 @@
+[
+  {
+    "name": "BTC/BITCOIN",
+    "image": "https://cdn.shopcoinusa.com/uploads/image/1638587152395-273506064-bitcoin-btc-logo.png",
+    "price": "20129.90",
+    "priceDifference": "20749.20 /19291.60"
+  },
+  {
+    "name": "ETH/Ethereum",
+    "image": "https://cdn.shopcoinusa.com/uploads/image/1638587152395-273506064-bitcoin-btc-logo.png",
+    "price": "20129.90",
+    "priceDifference": "20749.20 /19291.60"
+  },
+  {
+    "name": "SOL/Solana",
+    "image": "https://cdn.shopcoinusa.com/uploads/image/1638587152395-273506064-bitcoin-btc-logo.png",
+    "price": "20129.90",
+    "priceDifference": "20749.20 /19291.60"
+  },
+  {
+    "name": "ADA/Cardano",
+    "image": "https://cdn.shopcoinusa.com/uploads/image/1638587152395-273506064-bitcoin-btc-logo.png",
+    "price": "20129.90",
+    "priceDifference": "20749.20 /19291.60"
+  }
+]
